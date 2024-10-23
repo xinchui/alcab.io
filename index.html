@@ -1,9 +1,7 @@
 <html>
     <head>
         <style>
-            span{
-                text-align: center;
-            }
+            
         </style>
     </head>
 
@@ -16,7 +14,12 @@
         <br />
         <span>Hier gibt es noch nichts, weil ich noch nicht herausgefunden habe, wie man eine dynamische Website auf GitHub bereitstellt.</span>
         <br />
-        <span>ココニハナニモアリマセン。ナゼナラ、ギットハブニドウテキナウェブサイトヲデプロイスルホウホウガマダワカラナイカラデス。</span>
+        <span id="jap">ゼアーズ ナッシング ヒア イェット ビコーズ アイ ハヴント フィギュアード アウト ハウ トゥ デプロイ ア ダイナミック ウェブサイト オン ギットハブ。</span>
     </body>
-
+    <script>
+        let japSpan = document.getElementById("jap");
+        japSpan.onmuseover = function() {
+            console.log(123);
+        }
+    </script>
 </html>
